@@ -6,7 +6,6 @@ if(!video){
   return <div>Loading... </div>;
 }
 const videoId = video.id.videoId;
-console.log(videoId);
 const urlYT = `https://www.youtube.com/embed/${videoId}`;
 
   return(
